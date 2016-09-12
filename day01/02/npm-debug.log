@@ -1,0 +1,257 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\node\\node.exe',
+1 verbose cli   'D:\\node\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '.',
+1 verbose cli   '-g' ]
+2 info using npm@3.3.12
+3 info using node@v5.3.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData .
+8 silly fetchDirectoryPackageData .
+9 silly install normalizeTree
+10 silly loadCurrentTree Finishing
+11 silly loadIdealTree Starting
+12 silly install loadIdealTree
+13 silly cloneCurrentTree Starting
+14 silly install cloneCurrentTreeToIdealTree
+15 silly cloneCurrentTree Finishing
+16 silly loadShrinkwrap Starting
+17 silly install loadShrinkwrap
+18 silly loadShrinkwrap Finishing
+19 silly loadAllDepsIntoIdealTree Starting
+20 silly install loadAllDepsIntoIdealTree
+21 silly resolveWithNewModule zhangyx-921210@1.0.0 checking installable status
+22 silly cache add args [ '.', null ]
+23 verbose cache add spec .
+24 silly cache add parsed spec Result {
+24 silly cache add   raw: '.',
+24 silly cache add   scope: null,
+24 silly cache add   name: null,
+24 silly cache add   rawSpec: '.',
+24 silly cache add   spec: 'C:\\Users\\andy\\Desktop\\learnNodeJs\\day01\\02',
+24 silly cache add   type: 'directory' }
+25 verbose addLocalDirectory C:\Users\andy\AppData\Roaming\npm-cache\zhangyx-921210\1.0.0\package.tgz not in flight; packing
+26 info lifecycle zhangyx-921210@1.0.0~prepublish: zhangyx-921210@1.0.0
+27 silly lifecycle zhangyx-921210@1.0.0~prepublish: no script for prepublish, continuing
+28 verbose tar pack [ 'C:\\Users\\andy\\AppData\\Roaming\\npm-cache\\zhangyx-921210\\1.0.0\\package.tgz',
+28 verbose tar pack   'C:\\Users\\andy\\Desktop\\learnNodeJs\\day01\\02' ]
+29 verbose tarball C:\Users\andy\AppData\Roaming\npm-cache\zhangyx-921210\1.0.0\package.tgz
+30 verbose folder C:\Users\andy\Desktop\learnNodeJs\day01\02
+31 verbose addLocalTarball adding from inside cache C:\Users\andy\AppData\Roaming\npm-cache\zhangyx-921210\1.0.0\package.tgz
+32 silly cache afterAdd zhangyx-921210@1.0.0
+33 verbose afterAdd C:\Users\andy\AppData\Roaming\npm-cache\zhangyx-921210\1.0.0\package\package.json not in flight; writing
+34 verbose afterAdd C:\Users\andy\AppData\Roaming\npm-cache\zhangyx-921210\1.0.0\package\package.json written
+35 silly fetchNamedPackageData argv
+36 silly mapToRegistry name argv
+37 silly mapToRegistry using default registry
+38 silly mapToRegistry registry https://registry.npmjs.org/
+39 silly mapToRegistry uri https://registry.npmjs.org/argv
+40 verbose request uri https://registry.npmjs.org/argv
+41 verbose request no auth needed
+42 info attempt registry request try #1 at 00:28:28
+43 verbose request using bearer token for auth
+44 verbose request id de4cc4354c8900a9
+45 verbose etag "ETVSKDO2M34H9CMKP8T96LS41"
+46 http request GET https://registry.npmjs.org/argv
+47 http 304 https://registry.npmjs.org/argv
+48 verbose headers { 'cache-control': 'max-age=300',
+48 verbose headers   'accept-ranges': 'bytes',
+48 verbose headers   date: 'Tue, 06 Sep 2016 16:28:34 GMT',
+48 verbose headers   via: '1.1 varnish',
+48 verbose headers   connection: 'keep-alive',
+48 verbose headers   'x-served-by': 'cache-lcy1123-LCY',
+48 verbose headers   'x-cache': 'MISS',
+48 verbose headers   'x-cache-hits': '0',
+48 verbose headers   'x-timer': 'S1473179314.228742,VS0,VE86',
+48 verbose headers   vary: 'Accept-Encoding' }
+49 silly get cb [ 304,
+49 silly get   { 'cache-control': 'max-age=300',
+49 silly get     'accept-ranges': 'bytes',
+49 silly get     date: 'Tue, 06 Sep 2016 16:28:34 GMT',
+49 silly get     via: '1.1 varnish',
+49 silly get     connection: 'keep-alive',
+49 silly get     'x-served-by': 'cache-lcy1123-LCY',
+49 silly get     'x-cache': 'MISS',
+49 silly get     'x-cache-hits': '0',
+49 silly get     'x-timer': 'S1473179314.228742,VS0,VE86',
+49 silly get     vary: 'Accept-Encoding' } ]
+50 verbose etag https://registry.npmjs.org/argv from cache
+51 verbose get saving argv to C:\Users\andy\AppData\Roaming\npm-cache\registry.npmjs.org\argv\.cache.json
+52 silly resolveWithNewModule argv@0.0.2 checking installable status
+53 silly cache add args [ 'argv@0.0.2', null ]
+54 verbose cache add spec argv@0.0.2
+55 silly cache add parsed spec Result {
+55 silly cache add   raw: 'argv@0.0.2',
+55 silly cache add   scope: null,
+55 silly cache add   name: 'argv',
+55 silly cache add   rawSpec: '0.0.2',
+55 silly cache add   spec: '0.0.2',
+55 silly cache add   type: 'version' }
+56 silly addNamed argv@0.0.2
+57 verbose addNamed "0.0.2" is a plain semver version for argv
+58 silly mapToRegistry name argv
+59 silly mapToRegistry using default registry
+60 silly mapToRegistry registry https://registry.npmjs.org/
+61 silly mapToRegistry uri https://registry.npmjs.org/argv
+62 verbose addNameVersion registry:https://registry.npmjs.org/argv not in flight; fetching
+63 verbose get https://registry.npmjs.org/argv not expired, no request
+64 silly cache afterAdd argv@0.0.2
+65 verbose afterAdd C:\Users\andy\AppData\Roaming\npm-cache\argv\0.0.2\package\package.json not in flight; writing
+66 verbose afterAdd C:\Users\andy\AppData\Roaming\npm-cache\argv\0.0.2\package\package.json written
+67 silly loadAllDepsIntoIdealTree Finishing
+68 silly idealTree:prePrune npm
+68 silly idealTree:prePrune └─┬ zhangyx-921210@1.0.0
+68 silly idealTree:prePrune   └── argv@0.0.2
+69 silly loadIdealTree Finishing
+70 silly currentTree npm
+71 silly idealTree npm
+71 silly idealTree └─┬ zhangyx-921210@1.0.0
+71 silly idealTree   └── argv@0.0.2
+72 silly generateActionsToTake Starting
+73 silly install generateActionsToTake
+74 silly generateActionsToTake Finishing
+75 silly diffTrees action count 2
+76 silly diffTrees add argv@0.0.2
+77 silly diffTrees add zhangyx-921210@1.0.0
+78 silly decomposeActions action count 16
+79 silly decomposeActions fetch argv@0.0.2
+80 silly decomposeActions extract argv@0.0.2
+81 silly decomposeActions preinstall argv@0.0.2
+82 silly decomposeActions build argv@0.0.2
+83 silly decomposeActions install argv@0.0.2
+84 silly decomposeActions postinstall argv@0.0.2
+85 silly decomposeActions test argv@0.0.2
+86 silly decomposeActions finalize argv@0.0.2
+87 silly decomposeActions fetch zhangyx-921210@1.0.0
+88 silly decomposeActions extract zhangyx-921210@1.0.0
+89 silly decomposeActions preinstall zhangyx-921210@1.0.0
+90 silly decomposeActions build zhangyx-921210@1.0.0
+91 silly decomposeActions install zhangyx-921210@1.0.0
+92 silly decomposeActions postinstall zhangyx-921210@1.0.0
+93 silly decomposeActions test zhangyx-921210@1.0.0
+94 silly decomposeActions finalize zhangyx-921210@1.0.0
+95 silly executeActions Starting
+96 silly install executeActions
+97 silly doSerial global-install 0
+98 silly doParallel fetch 2
+99 verbose lock using C:\Users\andy\AppData\Roaming\npm-cache\_locks\staging-d7c64b03a494d013.lock for C:\Users\andy\AppData\Roaming\npm\node_modules\.staging
+100 silly doParallel extract 2
+101 silly extract argv@0.0.2
+102 silly extract zhangyx-921210@1.0.0
+103 verbose unbuild node_modules\.staging\argv-32078046d6101b38c542d7f237bb9c62
+104 verbose unbuild node_modules\.staging\zhangyx-921210-154118d7f7a5b9b9ed44544ee82e1f36
+105 silly gentlyRm C:\Users\andy\AppData\Roaming\npm\node_modules\.staging\argv-32078046d6101b38c542d7f237bb9c62 is being purged from base C:\Users\andy\AppData\Roaming\npm
+106 verbose gentlyRm don't care about contents; nuking C:\Users\andy\AppData\Roaming\npm\node_modules\.staging\argv-32078046d6101b38c542d7f237bb9c62
+107 silly gentlyRm C:\Users\andy\AppData\Roaming\npm\node_modules\.staging\zhangyx-921210-154118d7f7a5b9b9ed44544ee82e1f36 is being purged from base C:\Users\andy\AppData\Roaming\npm
+108 verbose tar unpack C:\Users\andy\AppData\Roaming\npm-cache\argv\0.0.2\package.tgz
+109 verbose tar unpacking to C:\Users\andy\AppData\Roaming\npm\node_modules\.staging\argv-32078046d6101b38c542d7f237bb9c62
+110 silly gentlyRm C:\Users\andy\AppData\Roaming\npm\node_modules\.staging\argv-32078046d6101b38c542d7f237bb9c62 is being purged
+111 verbose gentlyRm don't care about contents; nuking C:\Users\andy\AppData\Roaming\npm\node_modules\.staging\zhangyx-921210-154118d7f7a5b9b9ed44544ee82e1f36
+112 verbose gentlyRm don't care about contents; nuking C:\Users\andy\AppData\Roaming\npm\node_modules\.staging\argv-32078046d6101b38c542d7f237bb9c62
+113 verbose tar unpack C:\Users\andy\AppData\Roaming\npm-cache\zhangyx-921210\1.0.0\package.tgz
+114 verbose tar unpacking to C:\Users\andy\AppData\Roaming\npm\node_modules\.staging\zhangyx-921210-154118d7f7a5b9b9ed44544ee82e1f36
+115 silly gentlyRm C:\Users\andy\AppData\Roaming\npm\node_modules\.staging\zhangyx-921210-154118d7f7a5b9b9ed44544ee82e1f36 is being purged
+116 silly gunzTarPerm modes [ '777', '666' ]
+117 verbose gentlyRm don't care about contents; nuking C:\Users\andy\AppData\Roaming\npm\node_modules\.staging\zhangyx-921210-154118d7f7a5b9b9ed44544ee82e1f36
+118 silly gunzTarPerm modes [ '777', '666' ]
+119 silly gunzTarPerm extractEntry package.json
+120 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+121 silly gunzTarPerm extractEntry package.json
+122 silly gunzTarPerm extractEntry .idea/.name
+123 silly gunzTarPerm extractEntry .idea/02.iml
+124 silly gunzTarPerm extractEntry .npmignore
+125 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+126 silly gunzTarPerm extractEntry README.md
+127 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+128 silly gunzTarPerm extractEntry .idea/encodings.xml
+129 silly gunzTarPerm extractEntry .idea/jsLibraryMappings.xml
+130 silly gunzTarPerm extractEntry LICENSE
+131 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+132 silly gunzTarPerm extractEntry index.js
+133 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+134 silly gunzTarPerm extractEntry .idea/libraries/02_node_modules.xml
+135 silly gunzTarPerm extractEntry .idea/misc.xml
+136 silly gunzTarPerm extractEntry lib/argv.js
+137 silly gunzTarPerm modified mode [ 'lib/argv.js', 420, 438 ]
+138 silly gunzTarPerm extractEntry .travis.yml
+139 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+140 silly gunzTarPerm extractEntry build/lint.js
+141 silly gunzTarPerm modified mode [ 'build/lint.js', 420, 438 ]
+142 silly gunzTarPerm extractEntry build/test.js
+143 silly gunzTarPerm modified mode [ 'build/test.js', 420, 438 ]
+144 silly gunzTarPerm extractEntry build/full.sh
+145 silly gunzTarPerm modified mode [ 'build/full.sh', 493, 511 ]
+146 silly gunzTarPerm extractEntry Makefile
+147 silly gunzTarPerm modified mode [ 'Makefile', 420, 438 ]
+148 silly gunzTarPerm extractEntry CHANGELOG.md
+149 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 420, 438 ]
+150 silly gunzTarPerm extractEntry .nodelint.json
+151 silly gunzTarPerm modified mode [ '.nodelint.json', 420, 438 ]
+152 silly gunzTarPerm extractEntry test/test-core.js
+153 silly gunzTarPerm modified mode [ 'test/test-core.js', 420, 438 ]
+154 silly gunzTarPerm extractEntry test/test-custom.js
+155 silly gunzTarPerm modified mode [ 'test/test-custom.js', 420, 438 ]
+156 silly gunzTarPerm extractEntry test/test-mods.js
+157 silly gunzTarPerm modified mode [ 'test/test-mods.js', 420, 438 ]
+158 silly gunzTarPerm extractEntry test/test-version.js
+159 silly gunzTarPerm modified mode [ 'test/test-version.js', 420, 438 ]
+160 silly gunzTarPerm extractEntry .idea/modules.xml
+161 silly gunzTarPerm extractEntry .idea/workspace.xml
+162 silly gunzTarPerm extractEntry bin/node-echo.js
+163 silly gunzTarPerm extractEntry bin/node-echo.cmd
+164 silly gunzTarPerm extractEntry lib/echo.js
+165 silly doParallel preinstall 2
+166 silly preinstall argv@0.0.2 C:\Users\andy\AppData\Roaming\npm\node_modules\.staging\argv-32078046d6101b38c542d7f237bb9c62
+167 info lifecycle argv@0.0.2~preinstall: argv@0.0.2
+168 silly preinstall zhangyx-921210@1.0.0 C:\Users\andy\AppData\Roaming\npm\node_modules\.staging\zhangyx-921210-154118d7f7a5b9b9ed44544ee82e1f36
+169 info lifecycle zhangyx-921210@1.0.0~preinstall: zhangyx-921210@1.0.0
+170 silly lifecycle argv@0.0.2~preinstall: no script for preinstall, continuing
+171 silly lifecycle zhangyx-921210@1.0.0~preinstall: no script for preinstall, continuing
+172 silly doReverseSerial remove 0
+173 silly doSerial move 0
+174 silly doSerial finalize 2
+175 silly finalize C:\Users\andy\AppData\Roaming\npm\node_modules\zhangyx-921210\node_modules\argv
+176 silly finalize C:\Users\andy\AppData\Roaming\npm\node_modules\zhangyx-921210
+177 silly doSerial build 2
+178 silly build argv@0.0.2
+179 info linkStuff argv@0.0.2
+180 silly linkStuff argv@0.0.2 has C:\Users\andy\AppData\Roaming\npm\node_modules\zhangyx-921210\node_modules as its parent node_modules
+181 silly linkStuff argv@0.0.2 is part of a global install
+182 silly linkStuff argv@0.0.2 is installed into a global node_modules
+183 verbose linkBins argv@0.0.2
+184 verbose linkMans argv@0.0.2
+185 silly build zhangyx-921210@1.0.0
+186 info linkStuff zhangyx-921210@1.0.0
+187 silly linkStuff zhangyx-921210@1.0.0 has C:\Users\andy\AppData\Roaming\npm\node_modules as its parent node_modules
+188 silly linkStuff zhangyx-921210@1.0.0 is part of a global install
+189 silly linkStuff zhangyx-921210@1.0.0 is installed into a global node_modules
+190 silly linkStuff zhangyx-921210@1.0.0 is installed into the top-level global node_modules
+191 verbose linkBins zhangyx-921210@1.0.0
+192 verbose link bins [ { 'node-echo': './bin/node-echo' },
+192 verbose link bins   'C:\\Users\\andy\\AppData\\Roaming\\npm',
+192 verbose link bins   true ]
+193 verbose linkMans zhangyx-921210@1.0.0
+194 verbose unlock done using C:\Users\andy\AppData\Roaming\npm-cache\_locks\staging-d7c64b03a494d013.lock for C:\Users\andy\AppData\Roaming\npm\node_modules\.staging
+195 silly rollbackFailedOptional Starting
+196 silly rollbackFailedOptional Finishing
+197 silly runTopLevelLifecycles Starting
+198 silly runTopLevelLifecycles Finishing
+199 silly install printInstalled
+200 verbose stack Error: ENOENT: no such file or directory, chmod 'C:\Users\andy\AppData\Roaming\npm\node_modules\zhangyx-921210\bin\node-echo'
+200 verbose stack     at Error (native)
+201 verbose cwd C:\Users\andy\Desktop\learnNodeJs\day01\02
+202 error Windows_NT 10.0.10586
+203 error argv "D:\\node\\node.exe" "D:\\node\\node_modules\\npm\\bin\\npm-cli.js" "install" "." "-g"
+204 error node v5.3.0
+205 error npm  v3.3.12
+206 error path C:\Users\andy\AppData\Roaming\npm\node_modules\zhangyx-921210\bin\node-echo
+207 error code ENOENT
+208 error errno -4058
+209 error syscall chmod
+210 error enoent ENOENT: no such file or directory, chmod 'C:\Users\andy\AppData\Roaming\npm\node_modules\zhangyx-921210\bin\node-echo'
+210 error enoent This is most likely not a problem with npm itself
+210 error enoent and is related to npm not being able to find a file.
+211 verbose exit [ -4058, true ]
