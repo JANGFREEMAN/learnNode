@@ -21,3 +21,8 @@
 
 -  ```http```模块，可创建http服务器与客户端请求。
 -  ```url```模块用来处理url,```querystring```模块用来处理请求参数数据,```zlip```用来压缩或解压数据,```net```模块可创建socket服务器或socket客户端。
+
+##day04
+
+-  Node的全局对象```process```简单学习，```process```可用来管理主进程。
+-  ```child_process```模块用于子进程的管理和创建子进程。
